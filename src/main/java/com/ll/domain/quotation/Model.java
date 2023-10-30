@@ -1,9 +1,13 @@
-package com.ll;
+package com.ll.domain.quotation;
+
 public class Model {
 
-    String saying,author;
+    public  String saying,author;
 
-
+    public Model(String saying, String author) {
+        this.saying = saying;
+        this.author = author;
+    }
     public String getSaying() {
         return saying;
     }
